@@ -1,260 +1,133 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body lang="en">
-    <section id="main">
-      <header id="title">
-        <h1>Alex b Elenjimattom</h1>
-        <span class="subtitle">Senior Verification Engineer, Canada</span>
-      </header>
-      <section class="main-block">
-        <h2>
-          <i class="fa fa-suitcase"></i> Experiences
-        </h2>
-        <section class="blocks">
-          <div class="date">
-            <span>2011</span><span>2024</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>NVIDIA Graphics Pvt Ltd - Senior ASIC Verification Engineer - 13 years</h3>
-              <span class="location">Calgary-Remote, Canada (2023 May to April 2024), Bangalore - India (2011-2023))</span>
-            </header>
-            <div>
-              <ul>
-                <li>Experience in CPU RTL Performance Verification, SOC coherent interconnect RTL Performance Verification, UVM/System Verilog, Unit DV for CPU L1 cache, Unit DV for CPU Runahead feature, Block level feature verification owner for Runahead, System level DV for Memory Subsystem, DV effort estimation - test planning and execution, CPU Boot Validation on FPGA and Functional Simulator, Silicon Bring-up, Post Silicon Testing and Debug, RTL debug, Computer Architecture, Dynamic Recompilation Micro-code validation </li>
-              </ul>
-              </div>
-          </div>
-        </section>
-      </section>
-      <section class="main-block">
-        <h2>
-          <i class="fa fa-suitcase"></i> Projects
-        </h2>
-	      
-        <section class="blocks">
-          <div class="date">
-            <span>April '24</span><span>Aug '20</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3><a href="https://nvidianews.nvidia.com/news/nvidia-unveils-drive-thor-centralized-car-computer-unifying-cluster-infotainment-automated-driving-and-parking-in-a-single-cost-saving-system">Drive Thor and Atlan- Nvidia AI chip for cars</a></h3>
-              <span class="place">UCF RTL Performance Verification Lead for Atlan and Thor </span>
-            </header>
-            <div>
-              <ul>
-                <li>Performance verification Lead for CPU and SOC coherent interconnect (UCF) Performance verification on RTL </li>
-                <li>Responsible for pre-silicon fabric performance test planning, phasing, and execution, leading a team of 15 engineers</li>
-		<li>Worked on RTL performance verification for NVIDIA's automobile tegra products Orin, Dane and Atlan, Thor</li>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alex B. Elenjimattom — Resume</title>
+  <style>
+    :root{--accent:#0b74de;--muted:#6b7280;--bg:#f7f9fb}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;line-height:1.45;color:#0f172a;background:var(--bg);padding:36px}
+    .card{max-width:900px;margin:0 auto;background:#fff;border-radius:12px;box-shadow:0 6px 30px rgba(12,20,40,0.08);overflow:hidden}
+    header{display:flex;align-items:center;gap:20px;padding:28px 32px;border-bottom:1px solid #eef2f7}
+    .name{font-size:20px;font-weight:700}
+    .title{color:var(--muted);font-size:13px}
+    .contact{margin-left:auto;text-align:right;font-size:13px;color:var(--muted)}
+    .wrap{display:grid;grid-template-columns:1fr 320px}
+    main{padding:28px 32px}
+    aside{background:#fbfdff;padding:20px;border-left:1px solid #eef2f7}
+    h3{font-size:14px;margin:0 0 8px;color:#071133}
+    p.lead{margin:0 0 12px;color:#0b1220}
+    ul{margin:8px 0 16px;padding-left:16px}
+    li{margin-bottom:6px}
+    .section{margin-bottom:18px}
+    .role{font-weight:600;color:#071133}
+    .meta{font-size:13px;color:var(--muted)}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .chip{background:#eef6ff;color:var(--accent);padding:6px 8px;border-radius:999px;font-size:12px}
+    .small{font-size:13px;color:var(--muted)}
+    footer{padding:18px 32px;border-top:1px solid #eef2f7;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <div>
+        <div class="name">Alex B. Elenjimattom</div>
+        <div class="title">Senior RTL Performance Verification Lead — Founder, SiVerif.com</div>
+      </div>
+      <div class="contact">
+        <div>alexbelenj@gmail.com</div>
+        <div><a href="https://alexbelenj.github.io" target="_blank">alexbelenj.github.io</a> · <a href="https://linkedin.com/in/alexbelenj" target="_blank">linkedin.com/in/alexbelenj</a></div>
+        <div class="small">Location: India / Canada</div>
+      </div>
+    </header>
 
-              </ul>
-              </div>
+    <div class="wrap">
+      <main>
+        <section class="section">
+          <h3>Professional Summary</h3>
+          <p class="lead">Results-driven RTL performance verification leader with <strong>14 years at NVIDIA</strong>, leading CPU/SoC performance DV, silicon bring-up, and post-silicon debug for flagship AI/GPU programs. Founded <strong>SiVerif.com</strong> to apply AI/ML to automate pre-silicon performance verification.</p>
+        </section>
+
+        <section class="section">
+          <h3>Experience</h3>
+
+          <div style="margin-bottom:12px">
+            <div class="role">Founder — SiVerif.com</div>
+            <div class="meta">2024 – Present</div>
+            <ul>
+              <li>Founded a deep‑tech consultancy and product effort focused on <strong>AI-driven silicon performance verification</strong>.</li>
+              <li>Built tools and workflows that analyze simulation data to detect performance bottlenecks and reduce verification cycles.</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="role">Senior ASIC Verification Engineer — NVIDIA</div>
+            <div class="meta">2011 – 2024</div>
+            <ul>
+              <li>Led a <strong>16‑member team</strong> for CPU, SoC interconnect, and memory subsystem performance verification across NVIDIA AI chip programs (Thor, Atlan, Orin).</li>
+              <li>Owned block‑level DV for <strong>CPU L1 cache</strong> and <strong>runahead execution</strong>; delivered system‑level DV for memory subsystems using UVM/SystemVerilog.</li>
+              <li>Managed DV effort estimation, test planning, FPGA & simulator‑based CPU boot validation, day‑one silicon bring‑up, and post‑silicon debug.</li>
+              <li>Developed verification tooling and automation that reduced ARM compliance turnaround from <strong>20 → 5 man‑days</strong>.</li>
+              <li>Specialized in micro‑architecture validation (dynamic recompilation, micro‑code validation) and RTL debug.</li>
+            </ul>
           </div>
         </section>
-	      
-	<section class="blocks">
-          <div class="date">
-            <span>Aug '20</span><span>Aug '18</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3><a href="https://en.wikipedia.org/wiki/Tegra#Orin">Orin</a> and ARM CPU </h3>
-              <span class="place">RTL Perf, Unit DV - UVM</span>
-            </header>
-            <div>
-              <ul>
-                <li>Developing test plan and testbench infrastructure from scratch using UVM for CPU L1 Cache Verification for in-house ARM CPU</li>
-                <li>Responsible for verification of critical features like Snoops, Evictions, Load Victim Tags, Barrier uops (test plan, tb-infra, feature bring up, feature accept, coverage closure) at L1 Cache Unit Testbench</li>
-                <li>Owned testbench enhancement for System Coherency Fabric performance testing on RTL using UVM for Orin</li>
-              </ul>
-              </div>
+
+        <section class="section">
+          <h3>Highlights</h3>
+          <ul>
+            <li>Led RTL performance DV for multiple NVIDIA AI chips; consistently achieved day‑one CPU bring‑up success.</li>
+            <li>Pioneered AI/ML approaches at SiVerif to accelerate performance verification and root‑cause analysis.</li>
+            <li>Delivered measurable automation gains—<strong>75% reduction</strong> in compliance test cycle time via scripting and infrastructure.</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <section class="section">
+          <h3>Skills</h3>
+          <div class="chips">
+            <span class="chip">RTL Performance DV</span>
+            <span class="chip">UVM / SystemVerilog</span>
+            <span class="chip">FPGA & Simulators</span>
+            <span class="chip">Silicon Bring‑up</span>
+            <span class="chip">Micro‑architecture</span>
+            <span class="chip">DV Automation</span>
+            <span class="chip">AI/ML for DV</span>
+            <span class="chip">RTL Debug</span>
           </div>
         </section>
-        
-        <section class="blocks">
-          <div class="date">
-            <span>Jul '18</span><span>May '18</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>CPU [Nvidia Internal]</h3>
-              <span class="place">OOO CPU performance on Perf Model simulator</span>
-            </header>
-            <div>
-              <ul>
-                <li>Developed native instruction snippets to exercise interesting performance scenarios to help architect the latest CPU</li>
-              </ul>
-              </div>
-          </div>
+
+        <section class="section">
+          <h3>Education</h3>
+          <div class="meta"><strong>M.Tech</strong>, Systems Engineering & Operations Research — IIT Roorkee</div>
+          <div class="small">(CGPA: 9.2/10)</div>
+          <div style="height:10px"></div>
+          <div class="meta"><strong>B.Tech</strong>, Electrical & Electronics — Mar Athanasius College of Eng.</div>
         </section>
-        <section class="blocks">
-          <div class="date">
-            <span>Apr '18</span><span>Dec '17</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3><a href="https://en.wikipedia.org/wiki/Tegra#Xavier">Xavier</a></h3>
-              <span class="place">Silicon Bringup, Silicon Testing</span>
-            </header>
-            <div>
-              <ul>
-                <li>Travelled to Santa-Clara office and did first silicon sample bring-up and silicon debug</li>
-                <li>Silicon Bringup owner for level one native stimulus planning and testing for CPU</li>
-                <li>Silicon debug across various CPU core units, root caused the issues to RTL / Dynamic Recompiler code/stimulus bugs using in-house silicon debug tools</li>
-              </ul>
-              </div>
-          </div>
+
+        <section class="section">
+          <h3>Certifications</h3>
+          <ul>
+            <li>Doulos UVM Adopter Course</li>
+            <li>Coursera — Deep Learning Specialization</li>
+          </ul>
         </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2017</span><span>2015</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3><a href="https://en.wikipedia.org/wiki/Tegra#Xavier">Xavier</a></h3>
-              <span class="place">Block(Core) level Runahead Feature Verification Lead, Memory Unit and L1 Cache DV - UVM</span>
-            </header>
-            <div>
-              <ul>
-                <li>Block(CPU Core) level Runahead feature verification Owner for a transactional memory model CPU</li>
-                <li>Developed and executed Runahead feature verification testplan at block level (Core)</li>
-                <li>Executed Runahead feature verification at memory unit (Ld/St execution unit and L1 cache)</li>
-              </ul>
-              </div>
-          </div>
+
+        <section class="section">
+          <h3>Contact</h3>
+          <div class="small">Email: alexbelenj@gmail.com</div>
+          <div class="small">Web: <a href="https://alexbelenj.github.io" target="_blank">alexbelenj.github.io</a></div>
+          <div class="small">LinkedIn: <a href="https://linkedin.com/in/alexbelenj" target="_blank">linkedin.com/in/alexbelenj</a></div>
         </section>
-        
-        <section class="blocks">
-          <div class="date">
-            <span>2015</span><span>2013</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3><a href="https://en.wikipedia.org/wiki/Tegra#Tegra_X2">Tegra_X2</a></h3>
-              <span class="place">System level DV, MicroCode Validation, Micro Architectural Boot Verification on FPGA and Silicon, Silicon Bringup</span>
-            </header>
-            <div>
-              <ul>
-                <li>Testplan execution for the Memory Subsystem Design Verification on SOC for CPU transactions, including test writing, and failure debug on RTL</li>
-                <li>Validation of dynamic recompilation software used in Denver2(Transactional memory model machine with Dynamic recompilation in HW), using constrained random ARM assembly code generators</li>
-                <li>The 6-core (2 Denver2 and 4 A57) SOC supported a bunch of CPU configurations using a complex boot sequence (micro Architectural boot for the dynamic re-compiler and ARM Architectural boot), validated the boot sequence on functional simulators and FPGA</li>
-                <li>Silicon Bring-up planning and execution on FPGA and Silicon, brought up the CPU on Day0</li>
-              </ul>
-              </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2013</span><span>2011</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3><a href="https://en.wikipedia.org/wiki/Project_Denver">Denver</a></h3>
-              <span class="place">ARM-v8 Architectural Compliance, Silicon Bring-up, Post-Silicon Testing - PERL and Shell Scripting</span>
-            </header>
-            <div>
-              <ul>
-                <li>Worked with ARM - Bangalore to get ARM architectural compliance for Denver, and was responsible for driving the team to get 100% ARMv8-A architectural compliance across functional simulators and RTL runs</li>
-	        <li>Automated the ARM Compliance Suite Build, Release, and Regression infrastructure to reduce the turnaround (ARM code drop to Nvidia Simulator run) time from 20-man days to 5-man days by enhancing the infrastructure</li>
-                <li>Involved in test planning and execution of Silicon Bringup and testing for the first house 64 bit ARMv8 CPU</li>
-                <li>Setup 40 Silicon machine farm machines and LSF infrastructure using Perl, enabling entire CPU team engineers to get remote time-shared access to the limited number of silicon samples, during early Silicon bringup</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2011</span><span>2009</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>M-Tech Projects in IIT Roorkee</h3>
-              <span class="place"><a href="https://www.iitr.ac.in/">IIT Roorkee</a></span>
-            </header>
-            <div>
-              <li>Compeleted 4 projects on Machine Learning - Type 2 Fuzzy Logic for Classification and Control Problems</li>
-              <li>Implemented ML solutions on Nvidia Tesla-C1060 GPGPU using CUDA v3.2 and obtained 60X to 200X fastness on Matlab simulations using GPGPU Vs High performance CPU</li>
-            </div>
-          </div>
-        </section>
-      </section>
-    </section>
-    <aside id="sidebar">
-      <div class="side-block" id="contact">
-        <h1>
-          Contact Info
-        </h1>
-        <ul>
-          <li><i class="fa fa-linkedin"></i><a href="http://linkedin.com/in/alexbelenj">linkedin.com/in/alexbelenj</a></li>
-          <li><i class="fa fa-envelope"></i> <a href="mailto:alexbelenj@gmail.com?Subject=Hello%20Alex" target="_top">alexbelenj@gmail.com</a></li>
-          <li><i class="fa fa-phone"></i> +91 990 222 0387 - India</li>
-          <li><i class="fa fa-git"></i><a href="https://alexbelenj.github.io/">alexbelenj.github.io</a></li>
-        </ul>
-      </div>
-      <div class="side-block" id="education">
-        <h1>
-          Education
-        </h1>
-        <ul>
-          <p><b><small><li><a href="https://www.iitr.ac.in/">Indian Institute of Technology</a></b>, Roorkee - India, 2009 - 2011</li></small>
-          <b><small>M-Tech in System Engg and Operations Research</small></b>
-          <br><b><small> - CGPA 9.2/10</small></b> 
-          <p><b><small><li><a href="http://www.mace.ac.in/">Mar Athanasius College of Engineering</a></b>, Kerala - India, 2005 - 2009</li></small>
-          <b><small>B-tech in Electrical and Electronics Engineering</small></b>
-        </ul>
-      </div>
-      <div class="side-block" id="skills">
-        <h1>
-          Skills
-        </h1>
-        <ul>
-          <li><small>Design Verification</small></li>
-          <li><small>UVM</small></li>
-          <li><small>System Verilog</small></li>
-          <li><small>Verification Planning and Effort Estimation</small></li>
-          <li><small>Computer Architecture, CPU Cache and Memory Architecture</small></li>
-          <li><small>HW-SW interaction - Dynamic Recompilation in HW</small></li>
-          <li><small>Debugging - RTL, Functional Simulator, Silicon, Chip Bring-up</small></li>
-          <li><small>Perl, Unix, Shell, Perforce, Deep Learning</small></li>
-        </ul>
-      </div>
-      <div class="side-block" id="skills">
-        <h1>
-          Courses
-        </h1>
-        <ul>
-        <p><a href="https://www.doulos.com/content/training/systemverilog_uvm_adopter.php">Dulos - UVM Adopter Course</a></p>
-        <p><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XJHNVYR22U2K">Coursera - Deep Learning Specialization</a>
-          <li><small><a href="https://www.coursera.org/account/accomplishments/certificate/VSCGREJW9XLG">Neural Networks and Deep Learning</a></small></li>
-          <li><small><a href="https://www.coursera.org/account/accomplishments/certificate/ZXUYKAYSZHDP">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</a></small></li>
-          <li><small><a href="https://www.coursera.org/account/accomplishments/certificate/2M7X9J6LJYSL">Structuring Machine Learning Projects</a></small></li>
-          <li><small><a href="https://www.coursera.org/account/accomplishments/certificate/YC9PW45WB3UP">Convolutional Neural Networks</a></small></li>
-          <li><small><a href="https://www.coursera.org/account/accomplishments/certificate/JWKBD6SWKG2M">Sequence Models</a></small></li>
-        </p>
-        </ul>
-      </div>
-    </aside>
-  </body>
+      </aside>
+    </div>
+
+    <footer>
+      Compact, one‑page resume emphasizing leadership at NVIDIA and current founder activity at SiVerif.com. Available as PDF on request.
+    </footer>
+  </div>
+</body>
 </html>
